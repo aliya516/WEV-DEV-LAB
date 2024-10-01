@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BSIS-3A | ALMADEN, ALIYA</title>
+</head>
+<body>
+    <h1>WEB DEV LAB - ACTIVITY 1</h1>
+            <legend>HTML 7</legend>
+            <fieldset>
+                <legend>HTML 7</legend>
+                    <form>
+                        <label><b>Credit Card Application Pre-Qualifying Survey</b></label><br><br>
+                        <label for="Credit_Card_Name">Enter Name:</label>
+                        <input type="text" name="Credit_Card_Name" id="Credit_Card_Name" required><br><br>
+                        <label for="Credit_Card_Sex">Select Sex:</label>
+                        <input type="radio" name="Credit_Card_Sex" id="Credit_Card_Male">
+                        <label for="Credit_Card_Male">Male</label>
+                        <input type="radio" name="Credit_Card_Sex" id="Credit_Card_Female">
+                        <label for="Credit_Card_Female">Female</label><br><br>
+                        <label for="Annual_Salary">Select your yearly Salary:</label>
+                        <select name="Annual_Salary" id="Annual_Salary">
+                            <option value="Under_200k">Under P200,000</option>
+                            <option value="200k_to_500k">P200,000 to P500,000</option>
+                            <option value="500k_to_1m">P500,000 to P1,000,000</option>
+                            <option value="Above_1m">Above P1,000,000</option>
+                        </select><br><br>
+                        <input type="submit" value="Submit Query">
+                        <input type="reset" value="Reset">
+                    </form>
+            </fieldset>
+            <br>
+            <h3>ANALYZE THE CORRECTNESS</h3>
+            <ul>
+            <li> INPUT FIELDS: Allow the user to input text, FUNCTIONING</li> 
+            <li> SEX STATUS: Allows the user to pick from the two choices, FUNCTIONING</li>
+            <li> DROPDOWN BUTTON: Allows the user to choose their yearly salary range, FUNCTIONING</li>
+            <li>    CLEAR ALL: The user can click this button, FUNCTIONING.</li>
+            <br>
+            <h3>DESCRIPTION</h3>
+            <p> This file displays an input field where the user can enter text, an option for sex status using radio buttons, a dropdown menu that allows the user to choose their yearly salary range,
+                 and a "Clear All" button of type reset that the user can click to clear their input.
+                It also shows an error message indicating that the user cannot submit the query if the credit card name field is empty, using the "required" attribute.</p>
+        </body>
